@@ -1,0 +1,238 @@
+/* Estilos para el encabezado */
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Poppins, sans-serif";
+}
+
+.site-title h1{
+	font-weight: 400;
+	font-family: "Lora", sans-serif;
+	color: #ff0000;
+	font-size: 2rem;
+	margin: 0;
+}
+
+.subtitle {
+	font-weight: 700;
+	color: #ff0000;
+	font-size: 0.75rem;
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.container {
+	width: 90%;
+	max-width: 960px;
+	margin:0;
+
+}
+
+.container-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+header {
+	background-color: #ee0303;
+	color: #fff;
+	padding: 2rem 0;
+	box-shadow: 0 4px 8px 0 rgba(22, 22, 22, alpha);
+}
+
+ @media (max-width: 675px){
+	.container-nav{
+		flex-direction: column;
+
+	}
+	header {
+		text-align: center;
+	}
+ }
+
+ nav ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	text-transform: capitalize;
+	padding: 0.25rem;
+
+ }
+
+ nav li {
+	margin-left: 2em;
+ }
+
+ nav a {
+	text-decoration: none;
+	color: #163172;
+	font-weight: 600;
+	text-transform: capitalize;
+	padding: 2rem 0;
+	
+ }
+
+ nav a:hover,
+ nav a:focus {
+	color: #1e56a0;
+ }
+
+ .current-page {
+	color: #1356a0;
+	
+ }
+header h1 {
+	margin: 0;
+}
+header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header ul li {
+	display: inline-block;
+	margin: 0 10px;
+}
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos para la sección del banner */
+#banner {
+	/* background-image: url("banner.jpg"); */
+	background-size: cover;
+	background-position: center;
+	/* height: 600px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+#banner h2 {
+	margin: 0;
+	font-size: 3em;
+}
+#banner p {
+	margin: 0;
+	font-size: 1.5em;
+}
+
+/* Estilos*/
+body {
+ background-color: rgb(0, 0, 0); 
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+div {
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+font-family: Sanvito, cursive, sans-serif;
+font-size: 50px;
+font-weight: normal;
+text-align: center;
+background-color: rgb(26, 1, 255);
+}
+p {
+  font-family: Sanvito, cursive, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(10, 0, 19);
+  background-color: red;
+  
+}
+p:hover {
+  color: rgb(56, 55, 55);
+}
+
+h1:hover {
+  color: rgb(63, 6, 6);
+}
+
+
+a {
+  font-family: Arial 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 21px;
+  text-align: center;
+  color: rgb(10, 0, 19);  
+  margin: 0%;
+  align-items: center;
+}
+
+h2 {
+  font-family: Arial 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 21px;
+  text-align: center;
+  color: rgb(10, 0, 19);
+}
+
+
+footer {
+  width: 97%;
+  min-height: 100 px; 
+  max-width: 1530px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap:wrap;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: rgb(247, 0, 0);
+  box-shadow: 0 5px 10px #08a05c50;
+}
+header ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+header ul li{
+  padding: 0 1rem;
+}
+header ul li a{
+  font-weight: bold;
+}
+header .cart {
+  position: relative;
+  cursor: pointer;
+
+}
+header .cart box-icon{
+  width: 45px;
+  height: 45px;
+}
+
+header .cart span {
+  position: absolute;
+  top: -1rem;
+  right: -2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: crimson;
+}
